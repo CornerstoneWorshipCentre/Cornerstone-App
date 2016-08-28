@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>lightbulb</h1>
+
+<p>I present to you</p>
+
+<p>this is the lightbulb!</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+</body>
+</html>
